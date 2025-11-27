@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "60097487307",
+    "project_id": "campfood-6e14c",
+    "storage_bucket": "campfood-6e14c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60097487307:android:8d6f367626f800894c964e",
+        "android_client_info": {
+          "package_name": "com.campfood.campfood"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGunRmzsUUWUjfxGV9Y3Flj-XQMBPBhTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
