@@ -57,7 +57,7 @@ Designed to demonstrate clean UI, structured navigation, and simple prototype-le
 ```bash
 git clone https://github.com/yourusername/campfood.git
 cd campfood
-
+```
 2️⃣ Install Dependencies
 
 flutter pub get
