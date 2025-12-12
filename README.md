@@ -159,5 +159,3 @@ Push notifications for order status
 📄 License
 
 Open-source — free for learning, modification, and academic use.
-
-Want a **premium banner image** for your GitHub repo? 🎨
