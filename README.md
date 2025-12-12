@@ -1,7 +1,13 @@
-# 🍽️ CampFood – Campus Food Ordering App (Prototype)
+Here is your fixed, clean, premium-looking README with proper fenced code blocks (code boxes separate & not joining with text).
+Just copy-paste — sab sahi se render hoga.
 
-A modern, role-based Flutter prototype for campus food ordering, built with Firebase Authentication.  
-Designed to demonstrate clean UI, structured navigation, and simple prototype-level functionality for Students, Vendors, and Admins.
+
+---
+
+🍽️ CampFood – Campus Food Ordering App (Prototype)
+
+A modern, role-based Flutter prototype for campus food ordering, built with Firebase Authentication.
+Designed to demonstrate clean UI, structured navigation, and prototype-level features for Students, Vendors, and Admins.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Flutter-3.0+-blue?style=for-the-badge">
@@ -9,52 +15,80 @@ Designed to demonstrate clean UI, structured navigation, and simple prototype-le
   <img src="https://img.shields.io/badge/Prototype-UI-lightgrey?style=for-the-badge">
   <img src="https://img.shields.io/badge/Status-Working-green?style=for-the-badge">
 </p>
+---
+
+✨ Features
+
+👨‍🎓 Student
+
+Firebase Email/Password login
+
+View static demo food items
+
+Add to Cart
+
+Local checkout (wallet + total calculation)
+
+Prototype-only (no real-time data)
+
+
+🧑‍🍳 Vendor
+
+Vendor login via Firebase
+
+View static menu UI
+
+Add/Update (UI only)
+
+Changes do not reflect in student menu
+
+
+👨‍💼 Admin
+
+Admin login
+
+View static users/items
+
+Prototype-only admin panel
+
+
 
 ---
 
-## ✨ Features
+🔥 Firebase (Auth Only)
 
-### 👨‍🎓 Student
-- Firebase Email/Password login  
-- View **static demo food items**  
-- Add to Cart  
-- Local checkout (wallet + total calculation)  
-- Prototype-only (no real-time data)
+Email/Password login
 
-### 🧑‍🍳 Vendor
-- Vendor login via Firebase  
-- View **static menu UI**  
-- Add/Update buttons (UI only, no backend)  
-- Vendor changes do not reflect in student menu
+Role-based redirection
 
-### 👨‍💼 Admin
-- Admin login  
-- View static item/user list  
-- Prototype-only admin panel (no backend operations)
+No Firestore
+
+No Realtime Database
+
+No backend menu storage
+
+
 
 ---
 
-## 🔥 Firebase (Used Only for Authentication)
-- Email/Password login  
-- Role-based user redirection  
-- No Firestore  
-- No Realtime Database  
-- No dynamic backend features  
+🛠️ Tech Stack
+
+Flutter (Dart)
+
+Firebase Authentication
+
+Provider (State Management)
+
+Material 3
+
+
 
 ---
 
-## 🛠️ Tech Stack
-- Flutter (Dart)  
-- Firebase Authentication  
-- Provider (State Management)  
-- Material 3 UI  
+📦 Installation
 
----
+1️⃣ Clone Repository
 
-## 📦 Installation
-
-### 1️⃣ Clone Repository
-```bash
 git clone https://github.com/yourusername/campfood.git
 cd campfood
 
@@ -70,13 +104,13 @@ flutter pub get
 2. Add Android/iOS app
 
 
-3. Enable Email/Password Authentication
+3. Enable Email/Password authentication
 
 
 4. Add google-services.json or GoogleService-Info.plist
 
 
-5. Configure Firebase in Flutter
+5. Initialize Firebase in Flutter
 
 
 
@@ -117,21 +151,22 @@ lib/
     ├── item.dart
     └── order.dart
 
+
 ---
 
 📌 Current Limitations (Prototype)
 
 No real-time menu updates
 
-Vendor changes not stored in backend
+Vendor changes not stored
 
-Admin panel is static
+Admin panel static
 
-Wallet balance is local only
+Wallet is local
 
-Orders are not saved to Firebase
+Orders not saved
 
-Items, discounts, and prices are static
+Static items & prices
 
 
 
@@ -141,15 +176,15 @@ Items, discounts, and prices are static
 
 Firestore-powered dynamic menus
 
-Vendor can add/remove items in real-time
+Vendor real-time item management
 
-Live order tracking + status updates
+Live order tracking
 
-Admin controls for users, vendors & menu
+Admin controls (users/menu/vendors)
 
 Real wallet system
 
-Push notifications for order status
+Push notifications
 
 
 
@@ -157,7 +192,14 @@ Push notifications for order status
 
 📄 License
 
-Open-source — free for learning, modification, and academic use.
+Open-source — free for learning & academic use.
 
 
+---
 
+If you want, I can also create: ✔️ Logo
+✔️ Screenshots section
+✔️ Badges
+✔️ Contributing guide
+
+Just tell me!
