@@ -117,7 +117,6 @@ lib/
     ├── item.dart
     └── order.dart
 
-
 ---
 
 📌 Current Limitations (Prototype)
