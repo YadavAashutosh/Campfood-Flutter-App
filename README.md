@@ -1,97 +1,89 @@
-🍽️ CampFood – Campus Food Ordering Prototype
+# 🍽️ CampFood – Campus Food Ordering App (Prototype)
 
-A simple Flutter prototype for a campus food ordering app with Firebase Authentication and role-based login for Students, Vendors, and Admins.
+A modern, role-based Flutter prototype for campus food ordering, built with Firebase Authentication.  
+Designed to demonstrate clean UI, structured navigation, and simple prototype-level functionality for Students, Vendors, and Admins.
 
-
----
-
-✨ Features
-
-👨‍🎓 Student (Prototype)
-
-Login with Firebase Authentication
-
-View static demo food items
-
-Add items to cart
-
-Checkout (local calculation only, no backend logic)
-
-Simple wallet balance (local/dummy)
-
-
-🧑‍🍳 Vendor (Prototype)
-
-Login with Firebase Authentication
-
-View static menu list
-
-Add/update items (UI only – no database update)
-
-Changes do not affect student screen
-
-
-👨‍💼 Admin (Prototype)
-
-Login with Firebase Authentication
-
-View static list of users/items
-
-No real admin controls (prototype only)
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.0+-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Firebase-Auth-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Prototype-UI-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Working-green?style=for-the-badge">
+</p>
 
 ---
 
-🔥 Firebase Usage
+## ✨ Features
 
-Only one Firebase service is used:
+### 👨‍🎓 Student
+- Firebase Email/Password login  
+- View **static demo food items**  
+- Add to Cart  
+- Local checkout (wallet + total calculation)  
+- Prototype-only (no real-time data)
 
-1. Firebase Authentication
+### 🧑‍🍳 Vendor
+- Vendor login via Firebase  
+- View **static menu UI**  
+- Add/Update buttons (UI only, no backend)  
+- Vendor changes do not reflect in student menu
 
-Email/Password login
-
-Redirects users to Student/Vendor/Admin screens based on stored role
-
-No Firestore, no real-time database, no storage
-
-
-
----
-
-🛠️ Tech Stack
-
-Flutter (Dart)
-
-Firebase Authentication
-
-Provider (basic state handling)
-
-
+### 👨‍💼 Admin
+- Admin login  
+- View static item/user list  
+- Prototype-only admin panel (no backend operations)
 
 ---
 
-📦 Installation
+## 🔥 Firebase (Used Only for Authentication)
+- Email/Password login  
+- Role-based user redirection  
+- No Firestore  
+- No Realtime Database  
+- No dynamic backend features  
 
-1️⃣ Clone the repository
+---
 
+## 🛠️ Tech Stack
+- Flutter (Dart)  
+- Firebase Authentication  
+- Provider (State Management)  
+- Material 3 UI  
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/yourusername/campfood.git
 cd campfood
 
-2️⃣ Install dependencies
+2️⃣ Install Dependencies
 
 flutter pub get
 
-3️⃣ Connect Firebase
+3️⃣ Firebase Setup
 
-Create a Firebase project
-
-Enable Email/Password Authentication
-
-Add google-services.json and Firebase config to your Flutter app
+1. Create a Firebase project
 
 
-4️⃣ Run the app
+2. Add Android/iOS app
+
+
+3. Enable Email/Password Authentication
+
+
+4. Add google-services.json or GoogleService-Info.plist
+
+
+5. Configure Firebase in Flutter
+
+
+
+
+---
+
+▶️ Run App
 
 flutter run
 
@@ -125,3 +117,47 @@ lib/
     ├── item.dart
     └── order.dart
 
+
+---
+
+📌 Current Limitations (Prototype)
+
+No real-time menu updates
+
+Vendor changes not stored in backend
+
+Admin panel is static
+
+Wallet balance is local only
+
+Orders are not saved to Firebase
+
+Items, discounts, and prices are static
+
+
+
+---
+
+🚀 Future Enhancements
+
+Firestore-powered dynamic menus
+
+Vendor can add/remove items in real-time
+
+Live order tracking + status updates
+
+Admin controls for users, vendors & menu
+
+Real wallet system
+
+Push notifications for order status
+
+
+
+---
+
+📄 License
+
+Open-source — free for learning, modification, and academic use.
+
+Want a **premium banner image** for your GitHub repo? 🎨
