@@ -59,9 +59,9 @@ git clone https://github.com/yourusername/campfood.git
 cd campfood
 ```
 2️⃣ Install Dependencies
-
+```bash
 flutter pub get
-
+```
 3️⃣ Firebase Setup
 
 1. Create a Firebase project
@@ -84,14 +84,14 @@ flutter pub get
 ---
 
 ▶️ Run App
-
+```bash
 flutter run
-
+```
 
 ---
 
 📁 Project Structure
-
+```bash
 lib/
 ├── main.dart
 ├── screens/
@@ -117,7 +117,7 @@ lib/
     ├── item.dart
     └── order.dart
 
-
+```
 ---
 
 📌 Current Limitations (Prototype)
