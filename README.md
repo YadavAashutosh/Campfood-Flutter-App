@@ -54,6 +54,7 @@ Designed to demonstrate clean UI, structured navigation, and simple prototype-le
 ## 📦 Installation
 
 ### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/yourusername/campfood.git
 cd campfood
 
@@ -158,3 +159,4 @@ Push notifications for order status
 📄 License
 
 Open-source — free for learning, modification, and academic use.
+
